@@ -35,6 +35,17 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+Como alternativa, é possível instalar diretamente as principais dependências
+e gerar/atualizar o `requirements.txt` com o ambiente virtual ativado:
+
+```bash
+pip install langchain langchain-openai langchain-google-genai langchain-community langchain-text-splitters langchain-postgres 'psycopg[binary]' python-dotenv beautifulsoup4 pypdf
+pip freeze > requirements.txt
+```
+
+O comando `pip freeze > requirements.txt` substitui o conteúdo atual do
+arquivo pelas versões instaladas no ambiente virtual.
+
 Quando o ambiente estiver ativado, o terminal normalmente exibirá `(.venv)`
 no início da linha. Para sair dele:
 
