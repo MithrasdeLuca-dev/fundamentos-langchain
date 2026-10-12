@@ -2,6 +2,16 @@
 
 Exemplos introdutórios de uso do LangChain com modelos do Google Gemini.
 
+## Documentação por módulo
+
+Cada diretório possui um README com a explicação didática dos exemplos e dos conceitos utilizados:
+
+- [1. Fundamentos](1-fundamentos/README.md)
+- [2. Chains e processamentos](2-chains-e-processamentos/README.md)
+- [3. Agentes e tools](3-agentes-tools/README.md)
+- [4. Gerenciamento de memória](4-gerenciamento-de-memoria/README.md)
+- [5. Loaders e banco de dados vetoriais](5-loaders-e-banco-de-dados-vetoriais/README.md)
+
 ## Pré-requisitos
 
 - Python 3.10 ou superior
